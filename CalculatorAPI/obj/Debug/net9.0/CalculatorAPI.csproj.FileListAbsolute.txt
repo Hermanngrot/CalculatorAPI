@@ -30,3 +30,4 @@ C:\Users\Asus\RiderProjects\CalculatorAPI\CalculatorAPI\obj\Debug\net9.0\refint\
 C:\Users\Asus\RiderProjects\CalculatorAPI\CalculatorAPI\obj\Debug\net9.0\CalculatorAPI.pdb
 C:\Users\Asus\RiderProjects\CalculatorAPI\CalculatorAPI\obj\Debug\net9.0\CalculatorAPI.genruntimeconfig.cache
 C:\Users\Asus\RiderProjects\CalculatorAPI\CalculatorAPI\obj\Debug\net9.0\ref\CalculatorAPI.dll
+C:\Users\Asus\RiderProjects\CalculatorAPI\CalculatorAPI\obj\Debug\net9.0\CalculatorAPI.sourcelink.json

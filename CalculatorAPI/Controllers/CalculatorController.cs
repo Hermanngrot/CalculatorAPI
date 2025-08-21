@@ -13,5 +13,23 @@ namespace CalculatorAPI.Controllers
              int result = a + b;
             return Ok(new { a, b, result });
         }
+        [HttpGet(template: "Resta")]
+        public IActionResult Getresta([FromQuery] int a, [FromQuery] int b)
+        {
+            int result = a - b;
+            return Ok(new { a, b, result });
+        }
+        [HttpGet(template: "Multiplicacion")]
+        public IActionResult GetMultiplicacion([FromQuery] int a, [FromQuery] int b)
+        {
+            int result = a * b;
+            return Ok(new { a, b, result });
+        }
+        [HttpGet(template: "divicion")]
+        public IActionResult Getdivicion([FromQuery] int a, [FromQuery] int b)
+        {
+            int result = a/b;
+            return Ok(new { a, b, result });
+        }
     }
 }
