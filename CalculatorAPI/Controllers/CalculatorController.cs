@@ -30,7 +30,7 @@ namespace CalculatorAPI.Controllers
         {
             if (b == 0)
                 {
-                    return BadRequest();
+                    return BadRequest("No se puede dividir entre cero");
                 }
             int result = a/b;
             return Ok(new { a, b, result });
