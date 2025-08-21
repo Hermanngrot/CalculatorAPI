@@ -25,8 +25,8 @@ namespace CalculatorAPI.Controllers
             int result = a * b;
             return Ok(new { a, b, result });
         }
-        [HttpGet(template: "divicion")]
-        public IActionResult Getdivicion([FromQuery] int a, [FromQuery] int b)
+        [HttpGet(template: "division")]
+        public IActionResult Getdivision([FromQuery] int a, [FromQuery] int b)
         {
             int result = a/b;
             return Ok(new { a, b, result });
