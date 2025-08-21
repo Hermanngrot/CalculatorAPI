@@ -28,6 +28,10 @@ namespace CalculatorAPI.Controllers
         [HttpGet(template: "division")]
         public IActionResult Getdivision([FromQuery] int a, [FromQuery] int b)
         {
+            if (b == 0)
+                {
+                    return BadRequest();
+                }
             int result = a/b;
             return Ok(new { a, b, result });
         }
